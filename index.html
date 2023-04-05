@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Quipildor Leandro" />
-    <meta name="description" content="aprendiendo js - tp-5 - Practica DOM y BOM" />
+    <meta
+      name="description"
+      content="aprendiendo js - tp-5 - Practica DOM y BOM"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,8 +19,26 @@
     <title>Ejercicio 3</title>
   </head>
   <body>
-    <main>
-      
+    <main class="container">
+      <section class="pt-5 d-flex justify-content-center">
+        <article class="hoja text-light container">
+          <div class="text-center">
+            <h1 class="display-1 pt-3">Lista de tareas</h1>
+            <hr />
+          </div>
+          <div class="espacioTareas">
+            <ul id="ulForm"></ul>
+          </div>
+          <hr />
+          <form class="pb-4 formulario">
+            <label>Escriba la tarea que desee agregar</label>
+            <div class="d-md-flex mt-md-3">
+              <input type="text" id="inputForm" class="ms-md-3" />
+              <button id="btnAgregar" class="ms-md-4">Agregar</button>
+            </div>
+          </form>
+        </article>
+      </section>
     </main>
     <footer class="bg-dark text-light py-3 text-center">
       <p>&copy; Todos los derechos reservados</p>
